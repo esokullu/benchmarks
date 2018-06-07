@@ -1,4 +1,4 @@
-| Platform  | # Samples | Average | Throughput |
-| --------- | --------- | ------- | ---------- |
-| Wordpress | 96        | 98      | 55.0/min   |
-| Pho       | 96        | 90      | 55.4/min   |
+| Platform  | # Samples | Average | Median | 90% Line | 95% Line | 99% Line | Min | Max | Throughput | Received KB/sec |
+| --------- | --------- | ------- | ------ | -------- | -------- | -------- | --- | --- | ---------- | --------------- |
+| Wordpress | 96        | 77      | 67     | 96       | 106      | 241      | 61  | 276 | 55.8/min   | 3.18            |
+| Pho       | 96        | 123     | 114    | 134      | 158      | 347      | 104 | 363 | 53.5/min   | 0.15            |
