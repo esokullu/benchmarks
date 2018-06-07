@@ -1,0 +1,54 @@
+```
+php > echo xmlrpc_encode_request('metaWeblog.newPost', array(0, "admin", "password", array("title"=>"some title", "description"=>"some content", "post_type"=>"post"), true));
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<methodCall>
+<methodName>metaWeblog.newPost</methodName>
+<params>
+ <param>
+  <value>
+   <int>0</int>
+  </value>
+ </param>
+ <param>
+  <value>
+   <string>admin</string>
+  </value>
+ </param>
+ <param>
+  <value>
+   <string>password</string>
+  </value>
+ </param>
+ <param>
+  <value>
+   <struct>
+    <member>
+     <name>title</name>
+     <value>
+      <string>emre</string>
+     </value>
+    </member>
+    <member>
+     <name>description</name>
+     <value>
+      <string>yahoo</string>
+     </value>
+    </member>
+    <member>
+     <name>post_type</name>
+     <value>
+      <string>post</string>
+     </value>
+    </member>
+   </struct>
+  </value>
+ </param>
+ <param>
+  <value>
+   <boolean>1</boolean>
+  </value>
+ </param>
+</params>
+</methodCall>
+```
